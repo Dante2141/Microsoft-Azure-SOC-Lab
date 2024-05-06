@@ -12,21 +12,23 @@ In this project, I build a mini honeynet in Microsoft Azure and ingest from vari
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
-
-## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
-
-The architecture of the mini honeynet in Azure consists of the following components:
+## Lab Architecture
+The architecture of Microsoft Azure SOC/Honeynet consists of the following components:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
 - Virtual Machines (2 windows, 1 linux)
 - Log Analytics Workspace
 - Azure Key Vault
-- Azure Storage Account
+- Azure Storage Accounts
 - Microsoft Sentinel
+  
+## Architecture Before Hardening / Security Controls
+![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+
+## Architecture After Hardening / Security Controls
+![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+
 
 For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
