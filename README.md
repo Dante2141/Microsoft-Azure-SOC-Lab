@@ -26,6 +26,9 @@ The architecture of Microsoft Azure SOC/Honeynet consists of the following compo
 ## Incident Response 
 
 Example Brute Force Attempt:
+
+
+
   
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
