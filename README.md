@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this project, I build a mini honeynet in Microsoft Azure and ingest from various resources into a Log Analytics workspace, which Microsoft Sentinel then uses to trigger alerts and create incidents. I was able to practice my incident response skills by following   the NIST 800-61 Incident Response Lifecycle framework, mitigating security events such as brute force attempts, privilege escalation and malware outbreaks. After some time, I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, and then showed the results below. The metrics we will show are:
+In this project, I build a mini honeynet in Microsoft Azure and ingest from various resources into a Log Analytics workspace, which Microsoft Sentinel then uses to trigger alerts and create incidents. I was able to practice my incident response skills by following   the NIST 800-61 Incident Response Life Cycle framework, mitigating security events such as brute force attempts, privilege escalation and malware outbreaks. After some time, I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, and then showed the results below. The metrics we will show are:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
