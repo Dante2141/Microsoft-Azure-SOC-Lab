@@ -64,6 +64,7 @@ Documentation of Findings and Closing out Alert:
 
 
   
+
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
